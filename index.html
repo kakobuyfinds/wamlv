@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Lovegobuy spreadsheet: categorias, medidas e QC | Guia</title>
+  <meta name="description" content="Explore o guia Lovegobuy spreadsheet em português. Compare categorias, medidas, fotografias QC e custos antes de escolher. Descubra categorias na CAFANS.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#193e35">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_PT">
+  <meta property="og:title" content="Lovegobuy spreadsheet — escolha pelo detalhe">
+  <meta property="og:description" content="Um guia independente para organizar descobertas, comparar medidas e interpretar fotografias QC antes de decidir.">
+  <meta property="og:image" content="https://www.nike.qa/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw2a72a995/nk/34d/c/6/2/0/c/34dc620c_8c7b_42b5_bd3c_0c6c42c6ff2b.jpg?sh=520&amp;sm=fit&amp;sw=520">
+  <meta property="og:image:alt" content="Sapatilha Nike Air Force 1 branca, vista de perfil">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://www.nike.qa">
+
+  <!-- Ficheiro: index.html.
+       Definir um canonical autorreferente quando o endereço final de publicação for conhecido. -->
+
+  <!--
+    Pesquisa editorial: consulta Lovegobuy spreadsheet; Google não acessível nesta sessão.
+    Foram consultados dez resultados de outro motor de pesquisa;
+    não se afirma uma posição no Google.
+
+    Padrões observados, sem reproduzir textos ou alegações comerciais:
+    rep.tools/guides/lovegobuy-spreadsheet — ligação de origem e comparação;
+    lovegobuy.io — categorias e contexto das fotografias;
+    lovegobuy.cc — descoberta de produtos e percurso de compra;
+    lovegobuywithqc.com — fotografias QC;
+    lovegobuysheet.org — introdução e pesquisa por produto;
+    lovegobuy.net — medidas e listas de seleção;
+    lovegobuy.delivery — navegação por tipo de peça;
+    lovegobuying.com — categorias e guias;
+    lovego-buy.courses/guides/lovegobuy-spreadsheet — organização de referências;
+    lovegobuy.org — comparação e seleção.
+
+    Palavra principal: Lovegobuy spreadsheet.
+
+    Secundárias:
+    guia Lovegobuy;
+    Lovegobuy finds;
+    Lovegobuy links;
+    Lovegobuy QC;
+    tamanhos Lovegobuy.
+
+    30 intenções relacionadas, trabalhadas no conteúdo:
+    como usar uma spreadsheet; descobertas de moda; categorias de roupa;
+    sapatilhas brancas; comparar calçado; comprimento da palmilha;
+    tabela de tamanhos; medidas em centímetros; corte de t-shirts;
+    largura do peito; comprimento da manga; composição do tecido;
+    comparar casacos; cintura das calças; comprimento dos calções;
+    conjuntos coordenados; ajuste de bonés; acessórios de moda;
+    tamanho de pulseiras; fotografias QC; fotografias de armazém;
+    ligação de origem; anúncios Taobao; produtos Weidian;
+    referências 1688; variante e cor; custo total;
+    portes internacionais; condições de devolução; lista de seleção.
+  -->
+
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f6f3ea;
+      --ink: #193e35;
+      --muted: #52645c;
+      --line: #cdd3c8;
+      --accent: #b7442b;
+      --white: #fff;
+      --soft: #ebece2;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+    }
+
+    a {
+      color: inherit;
+      text-underline-offset: 4px;
+    }
+
+    a:focus-visible,
+    summary:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 5px;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    figure {
+      margin: 0;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.12;
+      text-wrap: balance;
+    }
+
+    h1,
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 400;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 3.3rem);
+      letter-spacing: -.035em;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+    }
+
+    p + p {
+      margin-top: 1rem;
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 48px));
+      margin-inline: auto;
+    }
+
+    .masthead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding-block: 22px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      font-weight: 900;
+      font-size: 1.45rem;
+      letter-spacing: .13em;
+      text-decoration: none;
+    }
+
+    .edition {
+      font-size: .78rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .top-link {
+      font-size: .87rem;
+      font-weight: 650;
+    }
+
+    .eyebrow {
+      font-size: .73rem;
+      font-weight: 750;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .categories {
+      padding-block: 20px 26px;
+    }
+
+    .categories > p {
+      margin-bottom: 12px;
+      color: var(--muted);
+    }
+
+    .category-grid {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+    }
+
+    .category-grid li {
+      min-width: 0;
+    }
+
+    .category-grid a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 84px;
+      padding: 12px 16px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      text-decoration: none;
+      transition: background .15s;
+    }
+
+    .category-grid a:hover {
+      background: var(--soft);
+    }
+
+    .category-grid strong {
+      font-size: .91rem;
+      font-weight: 650;
+    }
+
+    .category-grid span {
+      font-size: .72rem;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .hero-copy {
+      padding: clamp(28px, 4.5vw, 64px);
+    }
+
+    .hero .eyebrow {
+      color: #d7d8bc;
+    }
+
+    h1 {
+      font-size: clamp(2.75rem, 5.9vw, 5.1rem);
+      letter-spacing: -.045em;
+      margin: 25px 0 18px;
+      overflow-wrap: anywhere;
+    }
+
+    .hero-deck {
+      font: italic clamp(1.35rem, 2.5vw, 2rem)/1.25 Georgia, serif;
+      margin-bottom: 22px;
+    }
+
+    .hero-copy > p:last-of-type {
+      color: #e0e7dd;
+      max-width: 43ch;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      min-height: 48px;
+      padding: 12px 19px;
+      background: var(--paper);
+      color: var(--ink);
+      font-size: .9rem;
+      font-weight: 750;
+      text-decoration: none;
+      margin-top: 27px;
+    }
+
+    .button:hover {
+      background: #e4dcc7;
+    }
+
+    .hero-visual {
+      background: #eee;
+      border: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      color: var(--ink);
+    }
+
+    .hero-visual img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: contain;
+      flex: 1;
+      min-height: 0;
+    }
+
+    .hero-visual figcaption {
+      padding: 15px 22px;
+      font-size: .78rem;
+      border-top: 1px solid var(--line);
+      background: var(--paper);
+    }
+
+    .intro {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 48px;
+      padding-block: 45px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .intro .eyebrow {
+      color: var(--accent);
+      padding-top: 5px;
+    }
+
+    .intro p {
+      max-width: 78ch;
+      font-size: 1.08rem;
+    }
+
+    .section {
+      padding-block: 60px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 30px;
+      margin-bottom: 28px;
+    }
+
+    .section-head .eyebrow {
+      margin-bottom: 12px;
+      color: var(--accent);
+    }
+
+    .section-head > p {
+      max-width: 38ch;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .references {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr 1fr;
+      gap: 22px;
+    }
+
+    .reference img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: contain;
+      background: #efefec;
+      border: 1px solid var(--line);
+    }
+
+    .reference figcaption {
+      padding-top: 18px;
+    }
+
+    .reference .eyebrow {
+      color: var(--muted);
+      margin-bottom: 9px;
+    }
+
+    .reference h3 {
+      margin-bottom: 10px;
+    }
+
+    .reference p {
+      font-size: .9rem;
+      color: var(--muted);
+    }
+
+    .image-note {
+      font-size: .79rem;
+      color: var(--muted);
+      margin-top: 25px;
+      max-width: 95ch;
+    }
+
+    .method {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      list-style: none;
+      margin: 30px 0 0;
+      padding: 0;
+      counter-reset: steps;
+    }
+
+    .method li {
+      counter-increment: steps;
+      border-top: 2px solid var(--ink);
+      padding-top: 18px;
+    }
+
+    .method li::before {
+      content: "0" counter(steps);
+      display: block;
+      font: italic 2rem Georgia, serif;
+      color: var(--accent);
+      margin-bottom: 15px;
+    }
+
+    .method h3 {
+      margin-bottom: 12px;
+    }
+
+    .method p {
+      color: var(--muted);
+      font-size: .94rem;
+    }
+
+    .comparison {
+      display: grid;
+      grid-template-columns: .8fr 1.4fr;
+      gap: 54px;
+    }
+
+    .comparison .eyebrow {
+      margin-bottom: 15px;
+      color: var(--accent);
+    }
+
+    .comparison h2 {
+      margin-bottom: 20px;
+    }
+
+    .comparison p {
+      color: var(--muted);
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .88rem;
+      text-align: left;
+    }
+
+    caption {
+      text-align: left;
+      font-weight: 750;
+      margin-bottom: 14px;
+    }
+
+    th,
+    td {
+      padding: 14px 12px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+
+    thead th {
+      background: var(--soft);
+    }
+
+    tbody th {
+      font-weight: 650;
+      width: 29%;
+    }
+
+    .check-panel {
+      background: var(--soft);
+      padding: 28px;
+      margin-top: 28px;
+      border-left: 3px solid var(--ink);
+    }
+
+    .check-panel h3 {
+      margin-bottom: 14px;
+    }
+
+    .checks {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px 30px;
+    }
+
+    .checks label {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: .91rem;
+      cursor: pointer;
+    }
+
+    .checks input {
+      width: 18px;
+      height: 18px;
+      margin-top: 5px;
+      accent-color: var(--ink);
+      flex: none;
+    }
+
+    .faq-layout {
+      display: grid;
+      grid-template-columns: .7fr 1.3fr;
+      gap: 60px;
+    }
+
+    .faq-heading .eyebrow {
+      color: var(--accent);
+      margin-bottom: 15px;
+    }
+
+    .faq-heading p {
+      margin-top: 20px;
+      color: var(--muted);
+    }
+
+    details {
+      border-top: 1px solid var(--line);
+      padding-block: 18px;
+    }
+
+    details:last-child {
+      border-bottom: 1px solid var(--line);
+    }
+
+    summary {
+      font-weight: 650;
+      cursor: pointer;
+      padding-right: 8px;
+    }
+
+    details p {
+      padding-top: 12px;
+      font-size: .94rem;
+      color: var(--muted);
+    }
+
+    .closing {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 28px;
+      padding-block: 40px;
+    }
+
+    .closing h2 {
+      font-size: clamp(1.8rem, 3vw, 2.5rem);
+    }
+
+    .closing .button {
+      background: var(--ink);
+      color: var(--paper);
+      margin: 0;
+      white-space: nowrap;
+    }
+
+    footer {
+      background: var(--ink);
+      color: var(--paper);
+      padding-block: 30px;
+    }
+
+    footer .wrap {
+      display: flex;
+      gap: 45px;
+      justify-content: space-between;
+    }
+
+    footer p {
+      font-size: .78rem;
+      max-width: 86ch;
+      color: #d8e0d7;
+    }
+
+    @media (min-width: 900px) {
+      .section {
+        content-visibility: auto;
+        contain-intrinsic-size: auto 600px;
+      }
+    }
+
+    @media (max-width: 850px) {
+      .edition {
+        display: none;
+      }
+
+      .category-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .hero {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .hero-copy {
+        padding: 28px;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      .hero-visual img {
+        aspect-ratio: 1;
+        flex: none;
+      }
+
+      .hero-visual {
+        justify-content: center;
+      }
+
+      .intro {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .comparison,
+      .faq-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+
+      .references {
+        gap: 15px;
+      }
+
+      .section-head {
+        align-items: start;
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+
+    @media (max-width: 580px) {
+      .wrap {
+        width: calc(100% - 32px);
+      }
+
+      .masthead {
+        padding-block: 16px;
+      }
+
+      .brand {
+        font-size: 1.2rem;
+      }
+
+      .top-link {
+        font-size: .76rem;
+      }
+
+      .category-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .category-grid a {
+        padding: 10px 12px;
+        min-height: 74px;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-copy {
+        padding: 30px 24px;
+      }
+
+      .hero h1 {
+        font-size: 3.1rem;
+      }
+
+      .hero-visual img {
+        max-height: 330px;
+        aspect-ratio: 1.3;
+      }
+
+      .references {
+        grid-template-columns: 1fr;
+      }
+
+      .reference {
+        display: grid;
+        grid-template-columns: 125px 1fr;
+        gap: 16px;
+        align-items: start;
+      }
+
+      .reference figcaption {
+        padding-top: 2px;
+      }
+
+      .reference img {
+        aspect-ratio: 1;
+      }
+
+      .reference .eyebrow {
+        font-size: .64rem;
+      }
+
+      .reference h3 {
+        font-size: 1rem;
+      }
+
+      .reference p {
+        font-size: .83rem;
+      }
+
+      .section {
+        padding-block: 40px;
+      }
+
+      .method {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .checks {
+        grid-template-columns: 1fr;
+      }
+
+      .closing {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      footer .wrap {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      th,
+      td {
+        padding: 12px 8px;
+      }
+
+      .check-panel {
+        padding: 20px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        transition: none !important;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "#pagina",
+        "name": "Lovegobuy spreadsheet: categorias, medidas e QC",
+        "description": "Guia independente em português para organizar descobertas, comparar medidas e interpretar fotografias QC, com ligações para categorias na CAFANS.",
+        "inLanguage": "pt",
+        "about": {
+          "@type": "Thing",
+          "name": "Lovegobuy spreadsheet",
+          "description": "Lista de referências de produtos utilizada para organizar e comparar uma seleção de compras."
+        },
+        "hasPart": {
+          "@id": "#perguntas"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "#perguntas",
+        "inLanguage": "pt",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "O que é uma Lovegobuy spreadsheet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "É uma lista de referências de produtos usada para organizar descobertas e comparar opções. O termo não garante que uma lista seja oficial, esteja atualizada ou tenha produtos autenticados. Esta página é um guia editorial com atalhos para a CAFANS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Onde abrem as ligações desta página?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Os atalhos de categoria abrem as secções indicadas em cafans.com. As restantes ligações abrem a página inicial de www.cafans.com. Aqui não existe pagamento nem envio de encomendas para a Lovegobuy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "As fotografias QC comprovam a autenticidade?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. As fotografias QC ajudam a observar a peça recebida, mas não comprovam autenticidade, composição ou durabilidade. Confirme também a origem, a documentação disponível e as condições do vendedor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como escolher o tamanho sem experimentar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Compare a tabela do anúncio com as medidas de uma peça que já lhe assenta bem. Use centímetros e o mesmo método de medição. No calçado, confirme o comprimento indicado e a correspondência entre sistemas de tamanhos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O valor do artigo inclui todos os custos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não presuma que sim. Confirme separadamente o artigo, a entrega interna, eventuais serviços, os portes internacionais e os encargos aplicáveis no destino. Esta página não apresenta preços nem calcula o total de uma encomenda."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Esta página tem ligação oficial às marcas ou à Lovegobuy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. É um guia independente. Nike, Louis Vuitton, Gucci, Hermès e Lovegobuy são nomes dos respetivos titulares. As imagens são referências visuais; não indicam parceria, disponibilidade na CAFANS ou autenticação de anúncios."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/wamlv/">
+</head>
+
+<body>
+  <header class="wrap masthead">
+    <a class="brand"
+       href="https://www.cafans.com"
+       aria-label="Abrir a página inicial da CAFANS">
+      CAFANS<span aria-hidden="true">.</span>
+    </a>
+
+    <span class="edition">Caderno de compras · Português</span>
+
+    <a class="top-link" href="https://www.cafans.com">
+      Explorar a CAFANS <span aria-hidden="true">↗</span>
+    </a>
+  </header>
+
+  <main class="wrap">
+    <nav class="categories" aria-label="Categorias de produtos na CAFANS">
+      <p class="eyebrow">Comece pela categoria · Destino: CAFANS</p>
+
+      <ul class="category-grid">
+        <li>
+          <a href="https://cafans.com/category-911-Shoes.html">
+            <strong>Calçado</strong>
+            <span lang="en">Shoes ↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://cafans.com/category-912-Hoodies%2FSweaters.html">
+            <strong>Sweatshirts e camisolas</strong>
+            <span lang="en">Hoodies/Sweaters ↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://cafans.com/category-913-T-Shirts.html">
+            <strong>T-shirts</strong>
+            <span lang="en">T-Shirts ↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://cafans.com/category-914-Jackets.html">
+            <strong>Casacos</strong>
+            <span lang="en">Jackets ↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://cafans.com/category-915-Pants%2FShorts.html">
+            <strong>Calças e calções</strong>
+            <span lang="en">Pants/Shorts ↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://cafans.com/category-916-Headwear.html">
+            <strong>Bonés e chapéus</strong>
+            <span lang="en">Headwear ↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://cafans.com/category-917-Sets.html">
+            <strong>Conjuntos</strong>
+            <span lang="en">Sets ↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://cafans.com/category-918-underwear%2Funderpants.html">
+            <strong>Roupa interior</strong>
+            <span lang="en">Underwear/underpants ↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://cafans.com/category-919-Jersey.html">
+            <strong>Camisolas desportivas</strong>
+            <span lang="en">Jersey ↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://cafans.com/category-920-Accessories.html">
+            <strong>Acessórios</strong>
+            <span lang="en">Accessories ↗</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="hero" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <p class="eyebrow">Guia independente de descoberta</p>
+
+        <h1 id="titulo">Lovegobuy spreadsheet</h1>
+
+        <p class="hero-deck">Escolha pelo detalhe.</p>
+
+        <p>
+          Uma boa seleção começa com perguntas concretas: a medida corresponde?
+          A variante está identificada? Há fotografias suficientes?
+          Organize as respostas antes de guardar mais um produto.
+        </p>
+
+        <a class="button" href="https://www.cafans.com">
+          Descobrir na CAFANS <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <figure class="hero-visual">
+        <img
+          src="https://www.nike.qa/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw2a72a995/nk/34d/c/6/2/0/c/34dc620c_8c7b_42b5_bd3c_0c6c42c6ff2b.jpg?sh=520&amp;sm=fit&amp;sw=520"
+          width="520"
+          height="520"
+          alt="Sapatilha Nike Air Force 1 branca, vista de perfil, com sola branca e logótipo lateral"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async">
+
+        <figcaption>
+          Referência visual · Nike Air Force 1 branca.
+          Observe a silhueta; confirme as medidas no anúncio escolhido.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="intro" aria-labelledby="resposta">
+      <h2 class="eyebrow" id="resposta">A ideia em poucas palavras</h2>
+
+      <p>
+        Uma <strong>Lovegobuy spreadsheet</strong> organiza referências para
+        comparar produtos. Este guia Lovegobuy explica como montar uma lista
+        de seleção útil: categoria, ligação de origem, variante, medidas e
+        observações. Os atalhos desta página levam à <strong>CAFANS</strong>;
+        não constituem uma integração com a Lovegobuy.
+      </p>
+    </section>
+
+    <section class="section" aria-labelledby="referencias">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">01 / Um olhar mais atento</p>
+          <h2 id="referencias">Da imagem à pergunta certa.</h2>
+        </div>
+
+        <p>
+          Três referências de estilo para treinar a comparação de roupa,
+          headwear e acessórios. As imagens não são anúncios de venda.
+        </p>
+      </div>
+
+      <div class="references">
+        <figure class="reference">
+          <img
+            src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-t-shirt--HWY15WUQM44D_PM2_Front%20view.jpg?wid=600&amp;hei=600"
+            width="600"
+            height="600"
+            alt="T-shirt Louis Vuitton laranja com padrão Monogram, vista de frente"
+            loading="lazy"
+            decoding="async"
+            fetchpriority="low">
+
+          <figcaption>
+            <p class="eyebrow">Louis Vuitton / Roupa</p>
+            <h3>Compare o corte, depois o motivo.</h3>
+            <p>
+              Nas t-shirts, registe largura do peito, comprimento e composição
+              do tecido. Para comparar casacos e camisolas, acrescente ombros,
+              comprimento da manga e espaço para sobreposição.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure class="reference">
+          <img
+            src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg"
+            width="640"
+            height="640"
+            alt="Boné Gucci bege com padrão GG castanho e pala curva"
+            loading="lazy"
+            decoding="async"
+            fetchpriority="low">
+
+          <figcaption>
+            <p class="eyebrow">Gucci / Bonés</p>
+            <h3>O ajuste também conta.</h3>
+            <p>
+              Verifique a circunferência, o fecho e a profundidade da copa.
+              Uma fotografia frontal não mostra todo o ajuste de bonés
+              nem a forma da parte traseira.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure class="reference">
+          <img
+            src="https://assets.hermes.com/is/image/hermesproduct/700001FP85_front_wm_101?%24product_default_bg%24=&amp;wid=600&amp;hei=600"
+            width="600"
+            height="600"
+            alt="Pulseira Hermès Clic H de cor creme com acabamento metálico prateado e fecho em H"
+            loading="lazy"
+            decoding="async"
+            fetchpriority="low">
+
+          <figcaption>
+            <p class="eyebrow">Hermès / Acessórios</p>
+            <h3>Procure a escala real.</h3>
+            <p>
+              Para comparar acessórios de moda, peça dimensões e imagens do
+              fecho. No tamanho de pulseiras, confirme o perímetro interior
+              e a folga pretendida no pulso.
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <p class="image-note">
+        Imagens externas de referência das marcas indicadas.
+        Não comprovam a autenticidade de outros anúncios, não representam
+        stock na CAFANS e não indicam qualquer parceria.
+      </p>
+    </section>
+
+    <section class="section" aria-labelledby="metodo">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">02 / Como usar uma spreadsheet</p>
+          <h2 id="metodo">Menos separadores. Mais contexto.</h2>
+        </div>
+
+        <p>
+          Para organizar Lovegobuy finds, mantenha apenas as descobertas
+          de moda que consegue comparar com clareza.
+        </p>
+      </div>
+
+      <ol class="method">
+        <li>
+          <h3>Guarde a origem e a variante</h3>
+          <p>
+            Ao reunir Lovegobuy links, preserve a ligação de origem e a data
+            da consulta. Em anúncios Taobao, produtos Weidian ou referências
+            1688, anote cor, tamanho e variante exatos. A fotografia principal
+            pode mostrar uma opção diferente da selecionada.
+          </p>
+        </li>
+
+        <li>
+          <h3>Compare medidas e fotografias</h3>
+          <p>
+            Para pesquisar tamanhos Lovegobuy, consulte a tabela do anúncio
+            em vez de confiar apenas em S, M ou L. Compare medidas em
+            centímetros. Se existirem fotografias de armazém, confirme se
+            correspondem à sua peça e à variante escolhida.
+          </p>
+        </li>
+
+        <li>
+          <h3>Decida com o custo completo</h3>
+          <p>
+            Antes de concluir a seleção, confirme o custo total, os portes
+            internacionais e as condições de devolução. Guarde a estimativa
+            com a data e a moeda; um valor registado na lista pode já não
+            corresponder ao anúncio atual.
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section" aria-labelledby="comparar">
+      <div class="comparison">
+        <div>
+          <p class="eyebrow">03 / Critérios práticos</p>
+          <h2 id="comparar">O que vale a pena registar?</h2>
+
+          <p>
+            Uma lista útil não precisa de muitas colunas. Precisa de
+            informação suficiente para distinguir duas peças semelhantes
+            sem depender da memória.
+          </p>
+
+          <p>
+            Na pesquisa Lovegobuy QC, trate as fotografias como uma
+            observação visual. Costuras, alinhamento e manchas podem ser
+            visíveis; durabilidade e autenticidade exigem outros elementos.
+          </p>
+        </div>
+
+        <div
+          class="table-wrap"
+          role="region"
+          aria-label="Critérios de comparação por categoria"
+          tabindex="0">
+
+          <table>
+            <caption>Uma categoria, uma verificação prioritária</caption>
+
+            <thead>
+              <tr>
+                <th scope="col">Categoria</th>
+                <th scope="col">Registar</th>
+                <th scope="col">Conferir</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row">Calçado</th>
+                <td>
+                  Modelo, numeração e comprimento da palmilha quando disponível.
+                </td>
+                <td>
+                  Compare o calçado pelo mesmo sistema de tamanhos
+                  e método de medição.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">T-shirts e camisolas</th>
+                <td>Peito, ombros, comprimento e corte.</td>
+                <td>
+                  Compare com uma peça sua, medida numa superfície plana.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Casacos</th>
+                <td>Manga, forro, fechos e espaço interior.</td>
+                <td>
+                  Peça imagens dos pormenores que não aparecem na vista frontal.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Calças e calções</th>
+                <td>Cintura, gancho, comprimento total e entreperna.</td>
+                <td>
+                  Confirme se a cintura foi medida em repouso ou esticada.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Conjuntos e camisolas desportivas</th>
+                <td>Medidas de cada peça e versão selecionada.</td>
+                <td>
+                  Nos conjuntos coordenados, não presuma que ambas
+                  as peças têm o mesmo ajuste.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Roupa interior</th>
+                <td>Composição, medidas e condições de devolução.</td>
+                <td>
+                  Leia as condições específicas antes de escolher a variante.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Bonés e acessórios</th>
+                <td>Circunferência, dimensões, fecho e acabamento.</td>
+                <td>
+                  Procure uma referência de escala e imagens de vários ângulos.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="check-panel">
+        <h3>Antes de guardar na sua seleção</h3>
+
+        <div class="checks">
+          <label>
+            <input type="checkbox">
+            Identifiquei a cor e a variante do anúncio.
+          </label>
+
+          <label>
+            <input type="checkbox">
+            Comparei as medidas com uma peça minha.
+          </label>
+
+          <label>
+            <input type="checkbox">
+            Confirmei os custos e a moeda apresentados.
+          </label>
+
+          <label>
+            <input type="checkbox">
+            Li as condições de devolução disponíveis.
+          </label>
+        </div>
+
+        <p class="image-note">
+          Lista pessoal de verificação nesta página;
+          as marcações não são guardadas nem enviadas.
+        </p>
+      </div>
+    </section>
+
+    <section class="section faq-layout" aria-labelledby="faq-titulo">
+      <div class="faq-heading">
+        <p class="eyebrow">04 / Respostas diretas</p>
+        <h2 id="faq-titulo">Antes de escolher.</h2>
+        <p>
+          As dúvidas que ajudam a transformar uma referência
+          numa decisão informada.
+        </p>
+      </div>
+
+      <div>
+        <details open>
+          <summary>O que é uma Lovegobuy spreadsheet?</summary>
+          <p>É uma lista de referências de produtos usada para organizar descobertas e comparar opções. O termo não garante que uma lista seja oficial, esteja atualizada ou tenha produtos autenticados. Esta página é um guia editorial com atalhos para a CAFANS.</p>
+        </details>
+
+        <details>
+          <summary>Onde abrem as ligações desta página?</summary>
+          <p>Os atalhos de categoria abrem as secções indicadas em cafans.com. As restantes ligações abrem a página inicial de www.cafans.com. Aqui não existe pagamento nem envio de encomendas para a Lovegobuy.</p>
+        </details>
+
+        <details>
+          <summary>As fotografias QC comprovam a autenticidade?</summary>
+          <p>Não. As fotografias QC ajudam a observar a peça recebida, mas não comprovam autenticidade, composição ou durabilidade. Confirme também a origem, a documentação disponível e as condições do vendedor.</p>
+        </details>
+
+        <details>
+          <summary>Como escolher o tamanho sem experimentar?</summary>
+          <p>Compare a tabela do anúncio com as medidas de uma peça que já lhe assenta bem. Use centímetros e o mesmo método de medição. No calçado, confirme o comprimento indicado e a correspondência entre sistemas de tamanhos.</p>
+        </details>
+
+        <details>
+          <summary>O valor do artigo inclui todos os custos?</summary>
+          <p>Não presuma que sim. Confirme separadamente o artigo, a entrega interna, eventuais serviços, os portes internacionais e os encargos aplicáveis no destino. Esta página não apresenta preços nem calcula o total de uma encomenda.</p>
+        </details>
+
+        <details>
+          <summary>Esta página tem ligação oficial às marcas ou à Lovegobuy?</summary>
+          <p>Não. É um guia independente. Nike, Louis Vuitton, Gucci, Hermès e Lovegobuy são nomes dos respetivos titulares. As imagens são referências visuais; não indicam parceria, disponibilidade na CAFANS ou autenticação de anúncios.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="proximo">
+      <h2 id="proximo">
+        Escolha uma categoria.<br>
+        Compare com calma.
+      </h2>
+
+      <a class="button" href="https://www.cafans.com">
+        Continuar na CAFANS <span aria-hidden="true">↗</span>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <a class="brand" href="https://www.cafans.com">CAFANS.</a>
+
+      <p>
+        Guia editorial independente em português.
+        As marcas pertencem aos respetivos titulares.
+        Confirme os dados no anúncio atual antes de tomar uma decisão.
+        Esta página não processa encomendas e não apresenta preços,
+        avaliações ou garantias de disponibilidade.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
